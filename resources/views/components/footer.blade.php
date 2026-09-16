@@ -51,13 +51,13 @@
             <div class="col-lg-3 ps-lg-4">
                 <h6 class="fw-bold mb-3 text-white">Ikuti Kami</h6>
                 <div class="d-flex gap-2">
-                    <a href="#" class="d-flex align-items-center justify-content-center text-white text-decoration-none fs-5" style="width: 36px; height: 36px;">
+                    <a href="https://www.facebook.com/p/SMK-NEGERI-4-KOTA-BOGOR-100054636630766/" class="d-flex align-items-center justify-content-center text-white text-decoration-none fs-5" style="width: 36px; height: 36px;">
                         <i class="bi bi-facebook"></i>
                     </a>
-                    <a href="#" class="d-flex align-items-center justify-content-center text-white text-decoration-none fs-5" style="width: 36px; height: 36px;">
+                    <a href="https://www.instagram.com/smkn4kotabogor/?hl=en" class="d-flex align-items-center justify-content-center text-white text-decoration-none fs-5" style="width: 36px; height: 36px;">
                         <i class="bi bi-instagram"></i>
                     </a>
-                    <a href="#" class="d-flex align-items-center justify-content-center text-white text-decoration-none fs-5" style="width: 36px; height: 36px;">
+                    <a href="https://www.youtube.com/@smknegeri4bogor905" class="d-flex align-items-center justify-content-center text-white text-decoration-none fs-5" style="width: 36px; height: 36px;">
                         <i class="bi bi-youtube"></i>
                     </a>
                 </div>
