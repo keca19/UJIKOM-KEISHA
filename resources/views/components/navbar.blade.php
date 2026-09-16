@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg bg-white sticky-top shadow-sm py-3">
     <div class="container">
         <!-- Logo & Branding -->
-        <a class="navbar-brand d-flex align-items-center gap-3" href="{{ url('/') }}">
+        <a class="navbar-brand d-flex align-items-center gap-3" href="{{ url('/login') }}">
             <img src="{{ asset('images/logosmkn4.jpg') }}" alt="Logo SMKN 4 Bogor" height="50" onerror="this.src='https://via.placeholder.com/50?text=Logo'">
             <div>
                 <h1 class="fw-bold text-navy mb-0 lh-1" style="font-size: 1.35rem; letter-spacing: -0.2px;">SMKN 4 BOGOR</h1>
@@ -33,13 +33,7 @@
                     <a class="nav-link" href="{{ url('/') }}#kontak">Kontak</a>
                 </li>
             </ul>
-
-            <!-- Tombol Masuk -->
-            <div class="d-flex ms-lg-3">
-                <a href="{{ url('/login') }}" class="btn btn-navy px-4 py-2 rounded-3 fw-semibold shadow-sm" style="font-size: 0.88rem;">
-                    Masuk
-                </a>
-            </div>
+            
         </div>
     </div>
 </nav>

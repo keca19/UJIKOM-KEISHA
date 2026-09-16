@@ -1,5 +1,5 @@
-<!-- Footer Section -->
-<footer class="bg-navy text-white py-5">
+<!-- Footer Section (Tinggi Ditambah lewat Padding) -->
+<footer class="bg-navy text-white" style="padding-top: 5rem; padding-bottom: 5rem;">
     <div class="container">
         <div class="row gy-4">
             <!-- Kolom 1: Logo & Deskripsi -->

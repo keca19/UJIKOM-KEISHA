@@ -45,11 +45,11 @@ Route::post('/logout', [LoginController::class, 'logout'])->name('logout');
 
 /*
 |--------------------------------------------------------------------------
-| Admin Routes (Protected Auth)
+| Admin Routes (Protected Auth & Prevent Back)
 |--------------------------------------------------------------------------
 */
 
-Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function () {
+Route::middleware(['auth', 'prevent-back'])->prefix('admin')->name('admin.')->group(function () {
     
     // Dashboard Admin
     Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
